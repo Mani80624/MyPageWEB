@@ -220,10 +220,11 @@ input[type=submit]:hover {
     padding: 5px 0;
 }
 
+.titulo-alhajero{
+    font-size: 150%;
+    
+}
 
-/* .plan-price-discount {
-    color: red;
-} */
 
 
 /* Section-Image */
