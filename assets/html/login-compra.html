@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="/assets/css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300i,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
+    <script src="/assets/js/price.js"></script>
 </head>
-<body>
+<body onload="SegundaPagina()">
 
     <main>
         <section class="section-form">
@@ -52,7 +53,7 @@
                             <label for="name">Comprar producto por: </label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="text" name="address" id="address" placeholder="Ingresa tu dirección" required>
+                            <div id="precio-producto"> </div>
     
                         </div>
                     </div>
